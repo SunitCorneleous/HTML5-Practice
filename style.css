@@ -1,5 +1,18 @@
+:root{
+  --main-color: red;
+  --second-color: orange;
+}
+
 body {
   text-align: center;
+}
+
+h1{
+  color: var(--main-color);
+}
+
+h1:hover{
+  color: var(--second-color);
 }
 
 table {
