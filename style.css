@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 50px auto;
+  font-size: 32px;
+}
+
+td,
+th {
+  border: 1px solid rgba(135, 131, 131, 0.918);
+  padding: 0 30px;
+}
+
+form {
+  text-align: left;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+nav li {
+  list-style: none;
+  padding: 10px;
+}
+
+nav li:hover {
+  background-color: orange;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+}
+
+
+.dropdown{
+  display: none;
+  position: absolute;
+  top: 65px;
+  z-index: 1;
+  background-color: rgb(84, 83, 83);
+
+  padding: 0 15px;
+}
+
+.dropdown li{
+  padding: 0;
+}
+
+nav> ul > li:hover .dropdown{
+  display: block;
+}
