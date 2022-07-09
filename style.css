@@ -70,3 +70,24 @@ nav a {
 nav> ul > li:hover .dropdown{
   display: block;
 }
+
+/* flexbox */
+
+.flex-container{
+  height: 50vh;
+  width: 100%;
+
+  background-color: rgba(255, 0, 0, 0.31);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-item{
+  height: 300px;
+  width: 300px;
+
+  background-color: orangered;
+  font-size: 10em;
+}
